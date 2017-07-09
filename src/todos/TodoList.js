@@ -1,19 +1,28 @@
 import React, { Component } from 'react'
 import { Card, CardText, CardTitle, CardSubtitle, Button } from 'reactstrap'
+import { graphql, } from 'react-apollo'
+import { fetchAllTodos } from '../graphql/todos.graph'
+
 
 class TodoList extends Component {
   render () {
-    return(
-      <div>
-        <Card>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
-        </Card>
-      </div>
+
+    let todos = null
+    if (this.props.data.allTodoes) {
+      todos = this.props.data.allTodoes.map((todo) => {
+        return (
+          <p>{todo.title}</p>
+        )
+      })
+    }
+    return (
+      <p>{todos}</p>
+      //change this to a reactstrap card
     )
   }
 }
 
-export default TodoList
+const withTodoQuery = graphql(fetchAllTodos, {options:
+  { fetchPolicy: 'network-only' }})(TodoList)
+
+export default withTodoQuery
