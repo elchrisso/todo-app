@@ -8,3 +8,12 @@ export const fetchAllTodos = gql`
     }
   }
 `
+
+export const addTodo = gql`
+  mutation ($title: String!) {
+    createTodo(title: $title) {
+      id
+      title
+    }
+  }
+`

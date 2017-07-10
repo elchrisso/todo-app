@@ -18,6 +18,11 @@ class TodoHeader extends Component {
             <NavLink to="/junkdrawer">junkDrawer</NavLink>
           </Button>
         </NavItem>
+        <NavItem>
+          <Button color="success">
+            <NavLink to="/addtodo">add todo</NavLink>
+          </Button>
+        </NavItem>
       </Navbar>
     )
   }

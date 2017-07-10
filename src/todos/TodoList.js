@@ -11,13 +11,13 @@ class TodoList extends Component {
     if (this.props.data.allTodoes) {
       todos = this.props.data.allTodoes.map((todo) => {
         return (
+          //change this to a reactstrap card
           <p>{todo.title}</p>
         )
       })
     }
     return (
       <p>{todos}</p>
-      //change this to a reactstrap card
     )
   }
 }
