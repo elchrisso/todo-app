@@ -13,7 +13,8 @@ class TodoAdd extends Component {
         query: fetchAllTodos
       }],
       variables: {
-        title: this.state.title
+        title: this.state.title,
+        description: this.state.description
       }
     })
   }
@@ -29,7 +30,7 @@ class TodoAdd extends Component {
           </Row>
           <Row>
             <Col>
-              <input type="text" placeholder="description"/>
+              <input type="text" placeholder="description" onChange={(evt) => this.setState({ description: evt.target.value})}/>
             </Col>
             <Col></Col>
           </Row>
