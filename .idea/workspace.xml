@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ca5435e-be6b-4122-908b-c7f6fafec1dc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/todos/TodoEdit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TodoHeader.js" afterPath="$PROJECT_DIR$/src/TodoHeader.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/graphql/todos.graph.js" afterPath="$PROJECT_DIR$/src/graphql/todos.graph.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/todos/TodoAdd.js" afterPath="$PROJECT_DIR$/src/todos/TodoAdd.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/todos/TodoList.js" afterPath="$PROJECT_DIR$/src/todos/TodoList.js" />
@@ -45,8 +49,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+            <state relative-caret-position="405">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -54,21 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TodoList.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/todos/TodoList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="483">
+              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -86,23 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TodoHeader.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TodoHeader.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TodoAdd.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/todos/TodoAdd.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="142">
+              <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -113,40 +95,67 @@
       <file leaf-file-name="todos.graph.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/graphql/todos.graph.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
-                <marker date="1499730216000" expanded="true" signature="72:138" ph="{...}" />
-                <marker date="1499730216000" expanded="true" signature="78:87" ph="allTodoes...allTodoes" />
-                <marker date="1499730216000" expanded="true" signature="78:134" ph="allTodoes...{&#10;      id&#10;      title&#10;    }" />
-                <marker date="1499730216000" expanded="true" signature="88:134" ph="{...}" />
-                <marker date="1499730216000" expanded="true" signature="96:98" ph="id...id" />
-                <marker date="1499730216000" expanded="true" signature="105:110" ph="title...title" />
-                <marker date="1499730216000" expanded="true" signature="117:128" ph="description...description" />
-                <marker date="1499730216000" expanded="true" signature="172:312" ph="mutation...{&#10;    createTodo(title: )&#10;  }" />
-                <marker date="1499730216000" expanded="true" signature="181:220" ph="(...)" />
-                <marker date="1499730216000" expanded="true" signature="190:196" ph="String...String" />
-                <marker date="1499730216000" expanded="true" signature="213:219" ph="String...String" />
-                <marker date="1499730216000" expanded="true" signature="221:312" ph="{...}" />
-                <marker date="1499730216000" expanded="true" signature="227:237" ph="createTodo...createTodo" />
-                <marker date="1499730216000" expanded="true" signature="227:308" ph="createTodo...{&#10;      id&#10;      title&#10;    }" />
-                <marker date="1499730216000" expanded="true" signature="237:279" ph="(...)" />
-                <marker date="1499730216000" expanded="true" signature="238:243" ph="title...title" />
-                <marker date="1499730216000" expanded="true" signature="253:264" ph="description...description" />
-                <marker date="1499730216000" expanded="true" signature="280:308" ph="{...}" />
-                <marker date="1499730216000" expanded="true" signature="288:290" ph="id...id" />
-                <marker date="1499730216000" expanded="true" signature="297:302" ph="title...title" />
-                <marker date="1499730216000" expanded="true" signature="349:415" ph="mutation...{&#10;    deleteTodo(id: $id) {&#10;      id&#10;    }&#10;  }" />
-                <marker date="1499730216000" expanded="true" signature="358:368" ph="(...)" />
-                <marker date="1499730216000" expanded="true" signature="364:366" ph="ID...ID" />
-                <marker date="1499730216000" expanded="true" signature="369:415" ph="{...}" />
-                <marker date="1499730216000" expanded="true" signature="375:385" ph="deleteTodo...deleteTodo" />
-                <marker date="1499730216000" expanded="true" signature="375:411" ph="deleteTodo...{&#10;      id&#10;    }" />
-                <marker date="1499730216000" expanded="true" signature="385:394" ph="(...)" />
-                <marker date="1499730216000" expanded="true" signature="386:388" ph="id...id" />
-                <marker date="1499730216000" expanded="true" signature="395:411" ph="{...}" />
-                <marker date="1499730216000" expanded="true" signature="403:405" ph="id...id" />
+                <marker date="1499746609000" expanded="true" signature="72:152" ph="{...}" />
+                <marker date="1499746609000" expanded="true" signature="78:87" ph="allTodoes...allTodoes" />
+                <marker date="1499746609000" expanded="true" signature="78:148" ph="allTodoes...{&#10;      id&#10;      title&#10;    }" />
+                <marker date="1499746609000" expanded="true" signature="88:148" ph="{...}" />
+                <marker date="1499746609000" expanded="true" signature="96:98" ph="id...id" />
+                <marker date="1499746609000" expanded="true" signature="105:110" ph="title...title" />
+                <marker date="1499746609000" expanded="true" signature="117:128" ph="description...description" />
+                <marker date="1499746609000" expanded="true" signature="135:142" ph="dueDate...dueDate" />
+                <marker date="1499746609000" expanded="true" signature="186:373" ph="mutation...{&#10;    createTodo(title: )&#10;  }" />
+                <marker date="1499746609000" expanded="true" signature="195:258" ph="(...)" />
+                <marker date="1499746609000" expanded="true" signature="204:210" ph="String...String" />
+                <marker date="1499746609000" expanded="true" signature="227:233" ph="String...String" />
+                <marker date="1499746609000" expanded="true" signature="249:257" ph="DateTime...DateTime" />
+                <marker date="1499746609000" expanded="true" signature="259:373" ph="{...}" />
+                <marker date="1499746609000" expanded="true" signature="265:275" ph="createTodo...createTodo" />
+                <marker date="1499746609000" expanded="true" signature="265:369" ph="createTodo...{&#10;      id&#10;      title&#10;    }" />
+                <marker date="1499746609000" expanded="true" signature="275:340" ph="(...)" />
+                <marker date="1499746609000" expanded="true" signature="276:281" ph="title...title" />
+                <marker date="1499746609000" expanded="true" signature="291:302" ph="description...description" />
+                <marker date="1499746609000" expanded="true" signature="318:325" ph="dueDate...dueDate" />
+                <marker date="1499746609000" expanded="true" signature="341:369" ph="{...}" />
+                <marker date="1499746609000" expanded="true" signature="349:351" ph="id...id" />
+                <marker date="1499746609000" expanded="true" signature="358:363" ph="title...title" />
+                <marker date="1499746609000" expanded="true" signature="408:554" ph="mutation...{&#10;    updateTodo(id: $id, title: $title, description: $description) {&#10;      &#10;    }&#10;  }" />
+                <marker date="1499746609000" expanded="true" signature="417:465" ph="(...)" />
+                <marker date="1499746609000" expanded="true" signature="423:425" ph="ID...ID" />
+                <marker date="1499746609000" expanded="true" signature="436:442" ph="String...String" />
+                <marker date="1499746609000" expanded="true" signature="458:464" ph="String...String" />
+                <marker date="1499746609000" expanded="true" signature="466:554" ph="{...}" />
+                <marker date="1499746609000" expanded="true" signature="472:482" ph="updateTodo...updateTodo" />
+                <marker date="1499746609000" expanded="true" signature="472:550" ph="updateTodo...{&#10;      &#10;    }" />
+                <marker date="1499746609000" expanded="true" signature="482:533" ph="(...)" />
+                <marker date="1499746609000" expanded="true" signature="483:485" ph="id...id" />
+                <marker date="1499746609000" expanded="true" signature="492:497" ph="title...title" />
+                <marker date="1499746609000" expanded="true" signature="507:518" ph="description...description" />
+                <marker date="1499746609000" expanded="true" signature="534:550" ph="{...}" />
+                <marker date="1499746609000" expanded="true" signature="542:544" ph="id...id" />
+                <marker date="1499746609000" expanded="true" signature="591:657" ph="mutation...{&#10;    deleteTodo(id: $id) {&#10;      id&#10;    }&#10;  }" />
+                <marker date="1499746609000" expanded="true" signature="600:610" ph="(...)" />
+                <marker date="1499746609000" expanded="true" signature="606:608" ph="ID...ID" />
+                <marker date="1499746609000" expanded="true" signature="611:657" ph="{...}" />
+                <marker date="1499746609000" expanded="true" signature="617:627" ph="deleteTodo...deleteTodo" />
+                <marker date="1499746609000" expanded="true" signature="617:653" ph="deleteTodo...{&#10;      id&#10;    }" />
+                <marker date="1499746609000" expanded="true" signature="627:636" ph="(...)" />
+                <marker date="1499746609000" expanded="true" signature="628:630" ph="id...id" />
+                <marker date="1499746609000" expanded="true" signature="637:653" ph="{...}" />
+                <marker date="1499746609000" expanded="true" signature="645:647" ph="id...id" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TodoEdit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/todos/TodoEdit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -176,10 +185,11 @@
         <option value="$PROJECT_DIR$/graphql.config.json" />
         <option value="$PROJECT_DIR$/src/graphql/todoes.js" />
         <option value="$PROJECT_DIR$/src/todos/AddTodo.js" />
+        <option value="$PROJECT_DIR$/src/todos/TodoEdit.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/TodoHeader.js" />
-        <option value="$PROJECT_DIR$/src/todos/TodoAdd.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/todos/TodoAdd.js" />
         <option value="$PROJECT_DIR$/src/graphql/todos.graph.js" />
         <option value="$PROJECT_DIR$/src/todos/TodoList.js" />
       </list>
@@ -405,12 +415,12 @@
       <workItem from="1499623328497" duration="1399000" />
       <workItem from="1499624906602" duration="1805000" />
       <workItem from="1499626908432" duration="5111000" />
-      <workItem from="1499706031899" duration="4549000" />
+      <workItem from="1499706031899" duration="8921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12864000" />
+    <option name="totallyTimeSpent" value="17236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -616,18 +626,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graphql.schema.json" />
-    <entry file="file://$PROJECT_DIR$/src/client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="66" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/graphql.config.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="192" lean-forward="false" selection-start-line="5" selection-start-column="192" selection-end-line="5" selection-end-column="192" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphql/todoes.js" />
+    <entry file="file://$PROJECT_DIR$/src/todos/AddTodo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -642,96 +653,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphql/todoes.js" />
-    <entry file="file://$PROJECT_DIR$/src/todos/AddTodo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TodoHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/todos/TodoAdd.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        <state relative-caret-position="405">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/todos/TodoEdit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TodoHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="66" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/todos/TodoAdd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/graphql/todos.graph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <marker date="1499730216000" expanded="true" signature="72:138" ph="{...}" />
-            <marker date="1499730216000" expanded="true" signature="78:87" ph="allTodoes...allTodoes" />
-            <marker date="1499730216000" expanded="true" signature="78:134" ph="allTodoes...{&#10;      id&#10;      title&#10;    }" />
-            <marker date="1499730216000" expanded="true" signature="88:134" ph="{...}" />
-            <marker date="1499730216000" expanded="true" signature="96:98" ph="id...id" />
-            <marker date="1499730216000" expanded="true" signature="105:110" ph="title...title" />
-            <marker date="1499730216000" expanded="true" signature="117:128" ph="description...description" />
-            <marker date="1499730216000" expanded="true" signature="172:312" ph="mutation...{&#10;    createTodo(title: )&#10;  }" />
-            <marker date="1499730216000" expanded="true" signature="181:220" ph="(...)" />
-            <marker date="1499730216000" expanded="true" signature="190:196" ph="String...String" />
-            <marker date="1499730216000" expanded="true" signature="213:219" ph="String...String" />
-            <marker date="1499730216000" expanded="true" signature="221:312" ph="{...}" />
-            <marker date="1499730216000" expanded="true" signature="227:237" ph="createTodo...createTodo" />
-            <marker date="1499730216000" expanded="true" signature="227:308" ph="createTodo...{&#10;      id&#10;      title&#10;    }" />
-            <marker date="1499730216000" expanded="true" signature="237:279" ph="(...)" />
-            <marker date="1499730216000" expanded="true" signature="238:243" ph="title...title" />
-            <marker date="1499730216000" expanded="true" signature="253:264" ph="description...description" />
-            <marker date="1499730216000" expanded="true" signature="280:308" ph="{...}" />
-            <marker date="1499730216000" expanded="true" signature="288:290" ph="id...id" />
-            <marker date="1499730216000" expanded="true" signature="297:302" ph="title...title" />
-            <marker date="1499730216000" expanded="true" signature="349:415" ph="mutation...{&#10;    deleteTodo(id: $id) {&#10;      id&#10;    }&#10;  }" />
-            <marker date="1499730216000" expanded="true" signature="358:368" ph="(...)" />
-            <marker date="1499730216000" expanded="true" signature="364:366" ph="ID...ID" />
-            <marker date="1499730216000" expanded="true" signature="369:415" ph="{...}" />
-            <marker date="1499730216000" expanded="true" signature="375:385" ph="deleteTodo...deleteTodo" />
-            <marker date="1499730216000" expanded="true" signature="375:411" ph="deleteTodo...{&#10;      id&#10;    }" />
-            <marker date="1499730216000" expanded="true" signature="385:394" ph="(...)" />
-            <marker date="1499730216000" expanded="true" signature="386:388" ph="id...id" />
-            <marker date="1499730216000" expanded="true" signature="395:411" ph="{...}" />
-            <marker date="1499730216000" expanded="true" signature="403:405" ph="id...id" />
+            <marker date="1499746609000" expanded="true" signature="72:152" ph="{...}" />
+            <marker date="1499746609000" expanded="true" signature="78:87" ph="allTodoes...allTodoes" />
+            <marker date="1499746609000" expanded="true" signature="78:148" ph="allTodoes...{&#10;      id&#10;      title&#10;    }" />
+            <marker date="1499746609000" expanded="true" signature="88:148" ph="{...}" />
+            <marker date="1499746609000" expanded="true" signature="96:98" ph="id...id" />
+            <marker date="1499746609000" expanded="true" signature="105:110" ph="title...title" />
+            <marker date="1499746609000" expanded="true" signature="117:128" ph="description...description" />
+            <marker date="1499746609000" expanded="true" signature="135:142" ph="dueDate...dueDate" />
+            <marker date="1499746609000" expanded="true" signature="186:373" ph="mutation...{&#10;    createTodo(title: )&#10;  }" />
+            <marker date="1499746609000" expanded="true" signature="195:258" ph="(...)" />
+            <marker date="1499746609000" expanded="true" signature="204:210" ph="String...String" />
+            <marker date="1499746609000" expanded="true" signature="227:233" ph="String...String" />
+            <marker date="1499746609000" expanded="true" signature="249:257" ph="DateTime...DateTime" />
+            <marker date="1499746609000" expanded="true" signature="259:373" ph="{...}" />
+            <marker date="1499746609000" expanded="true" signature="265:275" ph="createTodo...createTodo" />
+            <marker date="1499746609000" expanded="true" signature="265:369" ph="createTodo...{&#10;      id&#10;      title&#10;    }" />
+            <marker date="1499746609000" expanded="true" signature="275:340" ph="(...)" />
+            <marker date="1499746609000" expanded="true" signature="276:281" ph="title...title" />
+            <marker date="1499746609000" expanded="true" signature="291:302" ph="description...description" />
+            <marker date="1499746609000" expanded="true" signature="318:325" ph="dueDate...dueDate" />
+            <marker date="1499746609000" expanded="true" signature="341:369" ph="{...}" />
+            <marker date="1499746609000" expanded="true" signature="349:351" ph="id...id" />
+            <marker date="1499746609000" expanded="true" signature="358:363" ph="title...title" />
+            <marker date="1499746609000" expanded="true" signature="408:554" ph="mutation...{&#10;    updateTodo(id: $id, title: $title, description: $description) {&#10;      &#10;    }&#10;  }" />
+            <marker date="1499746609000" expanded="true" signature="417:465" ph="(...)" />
+            <marker date="1499746609000" expanded="true" signature="423:425" ph="ID...ID" />
+            <marker date="1499746609000" expanded="true" signature="436:442" ph="String...String" />
+            <marker date="1499746609000" expanded="true" signature="458:464" ph="String...String" />
+            <marker date="1499746609000" expanded="true" signature="466:554" ph="{...}" />
+            <marker date="1499746609000" expanded="true" signature="472:482" ph="updateTodo...updateTodo" />
+            <marker date="1499746609000" expanded="true" signature="472:550" ph="updateTodo...{&#10;      &#10;    }" />
+            <marker date="1499746609000" expanded="true" signature="482:533" ph="(...)" />
+            <marker date="1499746609000" expanded="true" signature="483:485" ph="id...id" />
+            <marker date="1499746609000" expanded="true" signature="492:497" ph="title...title" />
+            <marker date="1499746609000" expanded="true" signature="507:518" ph="description...description" />
+            <marker date="1499746609000" expanded="true" signature="534:550" ph="{...}" />
+            <marker date="1499746609000" expanded="true" signature="542:544" ph="id...id" />
+            <marker date="1499746609000" expanded="true" signature="591:657" ph="mutation...{&#10;    deleteTodo(id: $id) {&#10;      id&#10;    }&#10;  }" />
+            <marker date="1499746609000" expanded="true" signature="600:610" ph="(...)" />
+            <marker date="1499746609000" expanded="true" signature="606:608" ph="ID...ID" />
+            <marker date="1499746609000" expanded="true" signature="611:657" ph="{...}" />
+            <marker date="1499746609000" expanded="true" signature="617:627" ph="deleteTodo...deleteTodo" />
+            <marker date="1499746609000" expanded="true" signature="617:653" ph="deleteTodo...{&#10;      id&#10;    }" />
+            <marker date="1499746609000" expanded="true" signature="627:636" ph="(...)" />
+            <marker date="1499746609000" expanded="true" signature="628:630" ph="id...id" />
+            <marker date="1499746609000" expanded="true" signature="637:653" ph="{...}" />
+            <marker date="1499746609000" expanded="true" signature="645:647" ph="id...id" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/todos/TodoList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="483">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>

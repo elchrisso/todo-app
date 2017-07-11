@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Card, CardText, CardTitle, CardSubtitle, Button, CardImg, CardBlock, Row, Col } from 'reactstrap'
+import { NavLink } from 'react-router-dom'
 import { graphql, } from 'react-apollo'
 import { fetchAllTodos, removeTodo } from '../graphql/todos.graph'
 
@@ -26,9 +27,11 @@ class TodoList extends Component {
             <CardImg top width="25%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
             <CardBlock>
               <CardTitle>{todo.title}</CardTitle>
-              <CardSubtitle>{todo.description}</CardSubtitle>
+              <CardSubtitle>due {todo.dueDate}</CardSubtitle>
               <CardText>{todo.description}</CardText>
-              <Button color="primary">Edit</Button>
+              <Button color="primary">
+                <NavLink to="/edittodo">Edit</NavLink>
+              </Button>
               <Button color="danger" onClick={() => this.handleRemoveTodo(todo)}>Delete</Button>
             </CardBlock>
           </Card>

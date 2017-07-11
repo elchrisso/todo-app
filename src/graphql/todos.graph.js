@@ -6,15 +6,24 @@ export const fetchAllTodos = gql`
       id
       title
       description
+      dueDate
     }
   }
 `
 
 export const addTodo = gql`
-  mutation ($title: String!, $description: String) {
-    createTodo(title: $title, description: $description) {
+  mutation ($title: String!, $description: String, $todoDueDate: DateTime) {
+    createTodo(title: $title, description: $description, dueDate: $todoDueDate) {
       id
       title
+    }
+  }
+`
+
+export const editTodo = gql`
+  mutation ($id: ID!, $title: String, $description: String) {
+    updateTodo(id: $id, title: $title, description: $description) {
+      id
     }
   }
 `

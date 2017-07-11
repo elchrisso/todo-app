@@ -1,4 +1,10 @@
 .App {
   text-align: center;
-  padding: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-link.active {
+  background-color: gray;
+  color: darkblue;
 }
