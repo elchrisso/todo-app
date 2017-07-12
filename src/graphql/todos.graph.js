@@ -20,6 +20,17 @@ export const addTodo = gql`
   }
 `
 
+export const fetchTodoById = gql`
+  query ($id: ID!) {
+    Todo(id: $id) {
+      id
+      title
+      description
+      dueDate
+    }
+  }
+`
+
 export const editTodo = gql`
   mutation ($id: ID!, $title: String, $description: String) {
     updateTodo(id: $id, title: $title, description: $description) {

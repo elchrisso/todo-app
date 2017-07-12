@@ -17,7 +17,7 @@ class App extends Component {
           <Route exact path="/" component={TodoList}/>
           <Route exact path="/junkdrawer" component={JunkDrawer}/>
           <Route exact path="/addtodo" component={TodoAdd}/>
-          <Route exact path="/edittodo" component={TodoEdit}/>
+          <Route exact path="/edittodo/:id" component={TodoEdit}/>
         </Switch>
       </div>
     );

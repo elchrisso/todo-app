@@ -8,3 +8,8 @@
   background-color: gray;
   color: darkblue;
 }
+
+.TodoCard {
+  padding-top: 10px;
+  background-color: gray;
+}

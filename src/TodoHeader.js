@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 class TodoHeader extends Component {
   render () {
     return(
-      <Navbar fixed color="faded" light toggleable>
+      <Navbar color="faded" light toggleable>
         <NavbarBrand>todozz</NavbarBrand>
         <Nav>
           <NavItem>
