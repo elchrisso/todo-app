@@ -27,24 +27,22 @@ class TodoEdit extends Component {
     return (
       <div>
         <Form onSubmit={this.handleSubmit}>
-          <Row>
-            <FormGroup>
-              <Input type="text" id="todoTitle" defaultValue={todo.title} onChange={(evt) => this.setState({ title: evt.target.value})}/>
-            </FormGroup>
-            <FormGroup>
-              <Input type="dateTime" id="dueDate" defaultValue={todo.todoDueDate} onChange={(evt) => this.setState({ todoDueDate: evt.target.value})}/>
-            </FormGroup>
-          </Row>
-          <Row>
-            <FormGroup>
-              <Input type="textarea" defaultValue={todo.description} id="editDescription" onChange={(evt) => this.setState({ description: evt.target.value })}/>
-            </FormGroup>
-          </Row>
-          <Row>
-            <Button type="submit" color="success" size="small">
-              Apply Changes
-            </Button>
-          </Row>
+          <FormGroup>
+            <Row>
+              <Col>
+                <Input type="text" id="todoTitle" defaultValue={todo.title} onChange={(evt) => this.setState({ title: evt.target.value})}/>
+              </Col>
+              <Col>
+                <Input type="dateTime" id="dueDate" defaultValue={todo.todoDueDate} onChange={(evt) => this.setState({ todoDueDate: evt.target.value})}/>
+              </Col>
+            </Row>
+          </FormGroup>
+          <FormGroup>
+            <Input type="textarea" defaultValue={todo.description} id="editDescription" onChange={(evt) => this.setState({ description: evt.target.value })}/>
+          </FormGroup>
+          <FormGroup>
+            <Button type="submit" color="success" size="small">Apply Changes</Button>
+          </FormGroup>
         </Form>
       </div>
     )
