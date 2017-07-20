@@ -60,6 +60,6 @@ class TodoList extends Component {
 
 const withTodoQuery = graphql(fetchAllTodos, {options:
   { fetchPolicy: 'network-only' }})(TodoList)
-const withRouteQuery = graphql(removeTodo)(withTodoQuery)
+const withTodoMutation = graphql(removeTodo)(withTodoQuery)
 
-export default withRouteQuery
+export default withTodoMutation

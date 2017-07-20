@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Button, Row, Col, Input, Label } from 'reactstrap'
+import { Button, Row, Col, Input, Label, Form, FormGroup } from 'reactstrap'
 import { graphql } from 'react-apollo'
 
 import { editTodo, fetchAllTodos, fetchTodoById } from '../graphql/todos.graph'
@@ -26,25 +26,26 @@ class TodoEdit extends Component {
   renderEditTodoForm (todo) {
     return (
       <div>
-        <form onSubmit={this.handleSubmit}>
+        <Form onSubmit={this.handleSubmit}>
           <Row>
-            <Col>
-              <Input type="text" placeholder="edit title"/>
-            </Col>
-            <Col>
-              <Input type="dateTime"/>
-            </Col>
+            <FormGroup>
+              <Input type="text" id="todoTitle" defaultValue={todo.title} onChange={(evt) => this.setState({ title: evt.target.value})}/>
+            </FormGroup>
+            <FormGroup>
+              <Input type="dateTime" id="dueDate" defaultValue={todo.todoDueDate} onChange={(evt) => this.setState({ todoDueDate: evt.target.value})}/>
+            </FormGroup>
           </Row>
           <Row>
-            <Col>
-              <Label for="editDescription">Edit Description</Label>
-              <Input type="textarea" placeholder="edit description" id="editDescription"/>
-            </Col>
+            <FormGroup>
+              <Input type="textarea" defaultValue={todo.description} id="editDescription" onChange={(evt) => this.setState({ description: evt.target.value })}/>
+            </FormGroup>
           </Row>
           <Row>
-            <Button>Submit</Button>
+            <Button type="submit" color="success" size="small">
+              Apply Changes
+            </Button>
           </Row>
-        </form>
+        </Form>
       </div>
     )
   }
@@ -58,8 +59,8 @@ class TodoEdit extends Component {
   return <h1>Todo not found</h1>
     }
 
-    if (this.props.hasOwnProperty('Route')) {
-      return this.renderEditTodoForm(this.props.Todo)
+    if (this.props.data.hasOwnProperty('Todo')) {
+      return this.renderEditTodoForm(this.props.data.Todo)
     }
 
     return <h5>you have no Todo!!!</h5>
