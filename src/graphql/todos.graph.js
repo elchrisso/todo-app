@@ -32,8 +32,8 @@ export const fetchTodoById = gql`
 `
 
 export const editTodo = gql`
-  mutation ($id: ID!, $title: String, $description: String) {
-    updateTodo(id: $id, title: $title, description: $description) {
+  mutation ($id: ID!, $title: String, $description: String, $dueDate: DateTime) {
+    updateTodo(id: $id, title: $title, description: $description, dueDate: $dueDate) {
       id
     }
   }

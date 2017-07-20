@@ -33,7 +33,7 @@ class TodoEdit extends Component {
                 <Input type="text" id="todoTitle" defaultValue={todo.title} onChange={(evt) => this.setState({ title: evt.target.value})}/>
               </Col>
               <Col>
-                <Input type="dateTime" id="dueDate" defaultValue={todo.todoDueDate} onChange={(evt) => this.setState({ todoDueDate: evt.target.value})}/>
+                <Input type="date" id="dueDate" defaultValue={todo.todoDueDate} onChange={(evt) => this.setState({ todoDueDate: evt.target.value})}/>
               </Col>
             </Row>
           </FormGroup>
